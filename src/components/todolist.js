@@ -3,7 +3,7 @@ import Todoitems from "./todoItems";
 function Todolist(){
     return(
         <div>
-            <p>This is my todolist</p>
+            <p>This is my  updated todolist</p>
             <Todoitems />
             
         </div>
