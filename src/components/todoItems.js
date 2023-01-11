@@ -1,7 +1,7 @@
 function Todoitems(){
     return(
         <div>
-            <h1>todo items</h1>
+            <h1>Todo items</h1>
         </div>
     )
 }
