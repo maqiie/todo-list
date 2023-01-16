@@ -6,7 +6,9 @@ function home(){
             <ul >
                 <li>my home page</li>
             </ul>
+            
             <Todolist />
         </div>
     )
 }
+export default home;
