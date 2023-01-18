@@ -1,14 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-import home from './views/home';
-import Todolist from './components/todolist';
+import "./App.css";
+
+import UserInfo from "./Biodata";
+import TodoAnalytics from "./views/TodoAnalytics";
+import Home from "./views/home";
+import { Route, Routes } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-   
-      <home/>
-      <Todolist/>
-    </div>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/analytics" element={<TodoAnalytics />} />
+      <Route path="/profile" element={<UserInfo />} />
+    </Routes>
   );
 }
 
